@@ -1,0 +1,64 @@
+.carretera {
+	background-image: url("../img/carretera.png") ;
+	background-size: 100%;
+	width: 1000px;
+	max-width: 1000px;
+	height: 700px;
+	background-position: top; /* Center the image */
+  	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-size: cover; /* Resize the background image to cover the entire container */
+  	z-index: -100;
+  	position: absolute;
+
+  	
+}
+
+.titulo {
+	background-image: url("../img/titulo.png") ;
+	background-size: 100%;
+	width: 1000px;
+	max-width: 1000px;
+	height: 700px;
+	background-position: top; /* Center the image */
+  	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-size: cover; /* Resize the background image to cover the entire container */
+  	z-index: -100;
+  	position: absolute;
+
+  	
+}
+
+.point {
+	display: inline-block;
+}
+
+.title {
+	margin-left: 20px;
+	display: none;
+}
+
+
+.enlace:hover + .title {
+    display: block;
+}
+
+#point1 {
+	position: absolute;
+	left: 675px;
+  	top: 98px;
+  
+}
+
+#point2 {
+	position: absolute;
+	left: 675px;
+  	top: 298px;
+  
+}
+
+#point3 {
+	position: absolute;
+	left: 675px;
+  	top: 498px;
+  
+}

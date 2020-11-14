@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "Quicksand-Bold";
+  src: url("font/Quicksand-Bold.ttf");
+}
+
+.title {
+	margin-left: 20px;
+	margin-top: -60px;
+	display: none;
+	font-family: "Quicksand-Bold", cursive;
+	color:#fff;
+	background-color: rgba(240,233,233,0.6);
+	border-color: #000;
+	border: solid 1px;
+	border-radius: 3px;
+	padding: 3px;
+	font-size: 12px;
+	width: 100px;
+	font-weight: bold;
+}
+
+.title_left {
+	margin-left: -130px;
+}
+
+.enlace:hover+.title {
+	display: block;
+}
+
+.title_verde {
+	background-color: #7DCEA0;
+}
+
+.title_amarillo {
+	background-color: #F7DC6F;
+}
+
+.title_rosa {
+	background-color: #F6CEF5;
+	margin-top: -50px;
+}
+
+.title_cyan {
+	background-color:#CEECF5;
+}
+
+.title_fucsia {
+	background-color:#F6CEF5;
+}
+
+.title_naranja {
+	background-color:#F3E2A9;
+	margin-top: -50px;
+}
+
+.title_morado {
+	background-color: #ECCEF5;
+}
+
+.title_azul {
+	background-color:#A9BCF5;
+}
+.title_rojo {
+	background-color:#F1948A;
+}
+
+.videos {
+	margin 0 auto;
+}
